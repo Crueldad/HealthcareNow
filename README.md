@@ -59,7 +59,7 @@ Burn chart (Monica and Farhad)
 
 
 <h2>USER STORY and TIME Estimates:</h2> 
-User story #1: User should be able to log in 
+User should be able to log in 
 Tasks: 
 Data model in Django 
 Create user interface 
