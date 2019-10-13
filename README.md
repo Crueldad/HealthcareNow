@@ -66,11 +66,11 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 
 ### Allocated Tasks:
-•	Website (Ian, Jackie, and Elmira) 
-•	Interface and working functional algorithm for collecting user information (Ian and Jackie and Elmira) 
-•	Create database for log in and register (Ian and Jackie) 
-•	Create chat and help server (Jackie) 
-•	Burn chart (Monica and Farhad) 
+*Jackie:	Develop the App, Databases, Log in 
+*Ian:	    Develop the App, Databases, Log in
+*Elmira:	User Interface Designer
+*Monica:	Gather data 
+*Farhad:	Security 
 
 
 ### User Story and Time Estimates: 
