@@ -66,11 +66,11 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 
 ### Allocated Tasks:
-*Jackie:	Develop the App, Databases, Log in 
-*Ian:	    Develop the App, Databases, Log in
-*Elmira:	User Interface Designer
-*Monica:	Gather data 
-*Farhad:	Security 
+* *Jackie:	Develop the App, Databases, Log in*
+* *Ian:	    Develop the App, Databases, Log in*
+* *Elmira:	User Interface Designer*
+* *Monica:	Gather data*
+* *Farhad:	Security*
 
 
 ### User Story and Time Estimates: 
