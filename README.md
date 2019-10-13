@@ -65,7 +65,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 - Create chat and help server 
 
 
-#### Allocated Tasks:
+### Allocated Tasks:
 •	Website (Ian, Jackie, and Elmira) 
 •	Interface and working functional algorithm for collecting user information (Ian and Jackie and Elmira) 
 •	Create database for log in and register (Ian and Jackie) 
@@ -73,23 +73,25 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 •	Burn chart (Monica and Farhad) 
 
 
-#### User Story and Time Estimates: 
-* User should be able to log in 
-Tasks: 
-* Data model in Django 
-* Create user interface 
-* Commands for inserting new users in database 
-* Hashing username and password 
-*Velocity: 0.7
-Days of work: 14
-Days we finish: 14/0.7=20
-Each person work days: 20/5= 4*
+### User Story and Time Estimates: 
+
+#### Iteration 1:
+User should be able to log in 
+* Tasks: 
+1. Data model in Django 
+2. Create user interface 
+3. Commands for inserting new users in database 
+4. Hashing username and password 
+* *Velocity: 0.7
+* *Days of work: 14
+* *Days we finish: 14/0.7=20
+* *Each person work days: 20/5= 4*
 
 
 
 User should be able to add information to their profile 
-Tasks: 
-Create user interface
+* Tasks: 
+1. Create user interface
 Save information to database
 10 days 
 Velocity: 0.25
