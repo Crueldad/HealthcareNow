@@ -3,14 +3,14 @@
 ## Application Concept:
 Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
 
-### *Team Members:*
+### Team Members:
 1. Ian Crueldad
 2. Jacquie Rollins
 3. Elmira Akbaripourdibazar
 4. Monica Montano
 5. Farhad Turabi 
 
-### *Stakeholders:*
+### Stakeholders:
 * Campus represenativies
 * Students
 * Healthcare agencies and hospitals
