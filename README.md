@@ -1,4 +1,8 @@
 ## HealthcareNow
+
+<h2>Application Concept:</h2>
+Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
+
 *Team Members:*
 1. Ian Crueldad
 2. Jacquie Rollins
@@ -6,11 +10,11 @@
 4. Monica Montano
 5. Farhad Turabi 
 ### Stakeholders:
-*Campus represenativies*
-*Students*
-*Healthcare agencies and hospitals*
-*Leaders in the healthcare field*
-*Health insurance providers*
+* Campus represenativies*
+* Students*
+* Healthcare agencies and hospitals*
+* Leaders in the healthcare field*
+* Health insurance providers*
 
 
 <h2>Requirements</h2> 
@@ -18,10 +22,6 @@
 2. Collect User Info
 3. Make a database
 4. Provide best healthcare plan 
-
-
-<h2>Application Concept:</h2>
-Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
 
 
 <h2>User Stories:</h2>
@@ -65,24 +65,24 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 
 <h2>Allocate Tasks:</h2> 
-..* Website (Ian, Jackie, and Elmira) 
-..* Interface and working functional algorithm for collecting user information (Ian and Jackie and Elmira) 
-..* Create database for log in and register (Ian and Jackie) 
-..* Create chat and help server (Jackie) 
-..* Burn chart (Monica and Farhad) 
+* Website (Ian, Jackie, and Elmira) 
+* Interface and working functional algorithm for collecting user information (Ian and Jackie and Elmira) 
+* Create database for log in and register (Ian and Jackie) 
+* Create chat and help server (Jackie) 
+* Burn chart (Monica and Farhad) 
 
 
 <h2>USER STORY and TIME Estimates:</h2> 
-..* User should be able to log in 
+* User should be able to log in 
 Tasks: 
-..* Data model in Django 
-..* Create user interface 
-..* Commands for inserting new users in database 
-..* Hashing username and password 
+* Data model in Django 
+* Create user interface 
+* Commands for inserting new users in database 
+* Hashing username and password 
 *Velocity: 0.7
 Days of work: 14
 Days we finish: 14/0.7=20
-Each person work days: 20/5= 4
+Each person work days: 20/5= 4*
 
 
 
