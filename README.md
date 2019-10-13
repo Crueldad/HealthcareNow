@@ -65,40 +65,57 @@ Data model in Django
 Create user interface 
 Commands for inserting new users in database 
 Hashing username and password 
-10 days
-Velocity: 7 days
+10 days 
+Velocity: 0.25
+10 * 0.25 = 2.5 days of work per person
+2.5 * 5 developers = 12.5 days
+
 
 User should be able to add information to their profile 
 Tasks: 
 Create user interface
 Save information to database
 10 days 
-Velocity: 7 days
+Velocity: 0.25
+10 * 0.25 = 2.5 days of work per person
+2.5 * 5 developers = 12. 5 days
+
 
 User should be able to input their healthcare needs and health symptoms 
 Tasks: 
 Create a database with heath categories
 Input objects on website 
-5 days 
-Velocity: 3.5 days
+5 days
+Velocity: 0.25
+5 * 0.25 = 1.25 days of work per person
+1.25 * 5 developers = 6.25 days
 
 Gather data from users to assess their health needs 
 Tasks: 
 Set up migration system between user interface and database
-5 days 
-Velocity: 3.5 days
+5 days
+Velocity: 0.25
+5 * 0.25 = 1.25 days of work per person
+1.25 * 5 developers = 6.25 days
+
 
 Based on the information we gather about user’s health need; application will provide a system that determines the best health plans for users 
 Tasks: 
 Create ranking algorithm
-25 days 
-Velocity: 17.5 days
+25 days
+Velocity: 0.25
+5 * 0.25 = 6.25 days
+6.25 * 5 developers = 31.25 days
+
 
 Create a public and private key that would indicate what information belongs to what user without showing an obvious public connection of which public keys belong to which private keys 
 Tasks: 
 Create encryption algorithm
-5 days 
-Velocity: 3.5 days
+5 days
+Velocity: 0.25
+5 * 0.25 = 1.25 days of work per person
+1.25 * 5 developers = 6.25 days
+
 
 
 
