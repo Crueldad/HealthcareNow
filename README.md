@@ -17,14 +17,14 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * Health insurance providers
 
 
-<h2>Requirements</h2> 
-- User Log In
-- Collect User Info
-- Make a database
-- Provide best healthcare plan
+#### Requirements:
+* User Log In
+* Collect User Info
+* Make a database
+* Provide best healthcare plan
 
 
-<h2>User Stories:</h2>
+#### User Stories:
 1. User should be able to log in
 2. User should be able to add information to their profile
 3. User should be able to input their healthcare needs and health symptoms 
@@ -33,7 +33,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 6. Create a public and private key that would indicate what information belongs to what user without showing an obvious public connection of which public keys belong to which private keys. 
 
 
-<h2>Completion Times for User Stories:</h2> 
+#### Completion Times for User Stories:
 1. User should be able to log in: 5 days
 2. User should be able to add information to their profile: 5 days
 3. User should be able to select their health symptoms and needs:  4 days
@@ -42,7 +42,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 6. Create a public and private key that would indicate what information belongs to what user without showing an obvious public connection of which public keys belong to which private keys: 3 days
 
 
-<h2>Example of User Stories:</h2> 
+#### Example of User Stories:
 
 •	*I am a F1 visa student. I go to the gym a lot. I have noticed occasionally that I tend to strain some of my muscles after a hard work out.  I am looking for the best insurance plan for me in case I injure myself.* 
 
@@ -57,14 +57,14 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 •	*I am a 22-year-old transgender female who was recently diagnosed with HIV. This situation prompted me to stop using crystal meth. I need rehabilitation services and long-term HIV care.  In addition, I was diagnosed with borderline personality disorder, therefore I need dialectical behavioral therapy. 
 
 
-<h2>Milestone 1.0 :</h2> 
+## Milestone 1:  
 - Draft of website  
 - Interface and working functional algorithm for collecting user information 
 - Create database for log in and register 
 - Create chat and help server 
 
 
-<h2>Allocate Tasks:</h2> 
+#### Allocated Tasks:
 •	Website (Ian, Jackie, and Elmira) 
 •	Interface and working functional algorithm for collecting user information (Ian and Jackie and Elmira) 
 •	Create database for log in and register (Ian and Jackie) 
@@ -72,7 +72,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 •	Burn chart (Monica and Farhad) 
 
 
-<h2>USER STORY and TIME Estimates:</h2> 
+#### User Story and Time Estimates: 
 * User should be able to log in 
 Tasks: 
 * Data model in Django 
