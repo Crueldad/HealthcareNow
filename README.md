@@ -1,16 +1,16 @@
 ## HealthcareNow
-Team Members: 
+*Team Members:*
 1. Ian Crueldad
 2. Jacquie Rollins
 3. Elmira Akbaripourdibazar
 4. Monica Montano
 5. Farhad Turabi 
 ### Stakeholders:
-*Campus represenativies
-Students
-Healthcare agencies and hospitals
-Leaders in the healthcare field
-Health insurance providers
+*Campus represenativies*
+*Students*
+*Healthcare agencies and hospitals*
+*Leaders in the healthcare field*
+*Health insurance providers*
 
 
 <h2>Requirements</h2> 
