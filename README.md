@@ -10,18 +10,18 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 4. Monica Montano
 5. Farhad Turabi 
 ### Stakeholders:
-* Campus represenativies*
-* Students*
-* Healthcare agencies and hospitals*
-* Leaders in the healthcare field*
-* Health insurance providers*
+* Campus represenativies
+* Students
+* Healthcare agencies and hospitals
+* Leaders in the healthcare field
+* Health insurance providers
 
 
 <h2>Requirements</h2> 
-1. User Log In
-2. Collect User Info
-3. Make a database
-4. Provide best healthcare plan 
+1. User Log In\
+2. Collect User Info\
+3. Make a database\
+4. Provide best healthcare plan\
 
 
 <h2>User Stories:</h2>
@@ -65,11 +65,11 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 
 <h2>Allocate Tasks:</h2> 
-* Website (Ian, Jackie, and Elmira) 
-* Interface and working functional algorithm for collecting user information (Ian and Jackie and Elmira) 
-* Create database for log in and register (Ian and Jackie) 
-* Create chat and help server (Jackie) 
-* Burn chart (Monica and Farhad) 
+•	Website (Ian, Jackie, and Elmira) 
+•	Interface and working functional algorithm for collecting user information (Ian and Jackie and Elmira) 
+•	Create database for log in and register (Ian and Jackie) 
+•	Create chat and help server (Jackie) 
+•	Burn chart (Monica and Farhad) 
 
 
 <h2>USER STORY and TIME Estimates:</h2> 
