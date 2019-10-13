@@ -53,9 +53,9 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
     • I am uninsured and have been recently diagnosed with cervical cancer. I would like to know what services and treatments are      available to me.
 
-    •	*Currently, I am a 20-year-old student who is in the middle of joining a sorority. I have decided to live in the house owned by my sorority. I blacked out and slept with a guy and did not realize that protection was not used. After being in pain and noticed a      rash, I consulted Web MD. I have realized there is a high chance that I contracted herpes. I hope there is a plan the offers a reduced cost on generic drugs.*
+    • Currently, I am a 20-year-old student who is in the middle of joining a sorority. I have decided to live in the house owned by my sorority. I blacked out and slept with a guy and did not realize that protection was not used. After being in pain and noticed a      rash, I consulted Web MD. I have realized there is a high chance that I contracted herpes. I hope there is a plan the offers a reduced cost on generic drugs.*
 
-    •	*I am a 22-year-old transgender female who was recently diagnosed with HIV. This situation prompted me to stop using crystal meth. I need rehabilitation services and long-term HIV care.  In addition, I was diagnosed with borderline personality disorder, therefore I need dialectical behavioral therapy.*
+    • I am a 22-year-old transgender female who was recently diagnosed with HIV. This situation prompted me to stop using crystal meth. I need rehabilitation services and long-term HIV care.  In addition, I was diagnosed with borderline personality disorder, therefore I need dialectical behavioral therapy.*
 
 
 ## Milestone 1:  
