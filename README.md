@@ -76,6 +76,10 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ### User Story and Time Estimates: 
 
 #### Iteration 1:
+* *Velocity: 0.7*
+* *Days of work: 14*
+* *Days we finish: 14/0.7=20*
+* *Each person work days: 20/5= 4*
 
 ##### User should be able to log in 
 ###### Tasks: 
@@ -83,10 +87,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 2. Create user interface 
 3. Commands for inserting new users in database 
 4. Hashing username and password 
-* *Velocity: 0.7*
-* *Days of work: 14*
-* *Days we finish: 14/0.7=20*
-* *Each person work days: 20/5= 4*
+
 
 
 
@@ -94,29 +95,24 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ###### Tasks: 
 1. Create user interface
 2. Save information to database
+
+
+#### Iteration 2:
 * *Velocity: 0.7*
 * *Days of work: 14*
 * *Days we finish: 14/0.7=20*
 * *Each person work days: 20/5= 4*
-
-#### Iteration 2:
 
 ##### User should be able to input their healthcare needs and health symptoms: 
 ###### Tasks: 
 1. Create a database with heath categories
 2. Input objects on website 
-* *Velocity: 0.7*
-* *Days of work: 14*
-* *Days we finish: 14/0.7=20*
-* *Each person work days: 20/5= 4*
+
 
 ##### Gather data from users to assess their health needs:
 ###### Tasks: 
 1. Set up migration system between user interface and database
-* *Velocity: 0.7*
-* *Days of work: 14*
-* *Days we finish: 14/0.7=20*
-* *Each person work days: 20/5= 4*
+
 
 
 
