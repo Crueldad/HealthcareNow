@@ -18,10 +18,10 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 
 <h2>Requirements</h2> 
-1. User Log In\
-2. Collect User Info\
-3. Make a database\
-4. Provide best healthcare plan\
+- User Log In
+- Collect User Info
+- Make a database
+- Provide best healthcare plan
 
 
 <h2>User Stories:</h2>
@@ -58,10 +58,10 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 
 <h2>Milestone 1.0 :</h2> 
-1. Draft of website  
-2. Interface and working functional algorithm for collecting user information 
-3. Create database for log in and register 
-4. Create chat and help server 
+- Draft of website  
+- Interface and working functional algorithm for collecting user information 
+- Create database for log in and register 
+- Create chat and help server 
 
 
 <h2>Allocate Tasks:</h2> 
