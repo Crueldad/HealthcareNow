@@ -82,7 +82,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * *Each person work days: 20/5= 4*
 
 ##### User should be able to log in 
-###### Tasks: 
+###### Task 1: 
 1. Data model in Django 
 2. Create user interface 
 3. Commands for inserting new users in database 
@@ -92,7 +92,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 
 ##### User should be able to add information to their profile 
-###### Tasks: 
+###### Task 2: 
 1. Create user interface
 2. Save information to database
 
@@ -104,13 +104,13 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * *Each person work days: 20/5= 4*
 
 ##### User should be able to input their healthcare needs and health symptoms: 
-###### Tasks: 
+###### Task 1: 
 1. Create a database with heath categories
 2. Input objects on website 
 
 
 ##### Gather data from users to assess their health needs:
-###### Tasks: 
+###### Task 2: 
 1. Set up migration system between user interface and database
 
 
