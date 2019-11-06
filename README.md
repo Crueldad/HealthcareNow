@@ -121,30 +121,30 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 - Virtual Environment 16.0.0
 ### Run Application command
 1. from application root activate the virtual environment
-```
+```ruby
 * Mac OS
 source ./venv/bin/activate 
 * Windows OS
 execute/run "activate" file
 ``` 
 2. run Dango server from app folder
-```
+```ruby
 * use python3 in stead of python if code shows error
 cd ./app
 python manage.py runserver
 ```
 3. Stop server by Ctrl + C
-```
+```ruby
 Ctrl + C
 ```
 4. Deactivate the virtualenv when not in use
-```
+```ruby
 deactivate
 ```
 5. Access application from http://localhost:8000/
 
 6. Sample Application RUN
-```
+```ruby
 WL-223-234:IST303-Group-Project abinash$
 WL-223-234:IST303-Group-Project abinash$ ls
 README.md       app             venv
@@ -164,13 +164,13 @@ Quit the server with CONTROL-C.
 ### Tests
 - Test Settings
 1. Test uses following pytest.ini settings
-```
+```ruby
 [pytest]
 DJANGO_SETTINGS_MODULE=mysite.settings_test
 addopts = --reuse-db
 ```
 2. DJANGO_SETTINGS_MODULE setting is required for providing django context to test.
-```
+```ruby
 "--reuse-db" is option provided by pytest-django plugin. It is used so that test enviroment does not delete the test database
 ```
 - Run Tests
