@@ -1,11 +1,14 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from chooseplan.forms import chooseplanform
+from .forms import chooseplanform
 
 
 def chooseplan(request):
     return render(request, 'chooseplan/chooseplan.html')
 
-def get(self, request):
+def get(request):
     form = chooseplanform()
-    return render(request, self.chooseplan.html, {'form': form})
+    if request.method == 'POST':
+        if form.is_valid():
+            return HttpResponse('Thank You')
+    return render(request, 'chooseplan/chooseplan.html', {'chooseplanform': form})
