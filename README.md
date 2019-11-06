@@ -3,15 +3,18 @@
 ## Application Concept:
 Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
 
-```
+
 **Team Members:**
+```
 1. Ian Crueldad
 2. Jacquie Rollins
 3. Elmira Akbaripourdibazar
 4. Monica Montano
 5. Farhad Turabi 
+```
 
 **Stakeholders:**
+```
 * Campus represenativies
 * Students
 * Healthcare agencies and hospitals
@@ -25,23 +28,27 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * Make a database
 * Provide best healthcare plan
 
-```
+
 #### User Stories:
+```
 1. User should be able to log in
 2. User should be able to add information to their profile
 3. User should be able to input their healthcare needs and health symptoms 
 4. Gather data from users to assess their health needs
 5. Based on the information we gather about user’s health need; application will provide a system that determines the best health plans  for users
 6. Create a public and private key that would indicate what information belongs to what user without showing an obvious public connection of which public keys belong to which private keys. 
+```
 
 
 #### Completion Times for User Stories:
+```
 1. User should be able to log in: 5 days
 2. User should be able to add information to their profile: *5 days*
 3. User should be able to select their health symptoms and needs:  *4 days*
 4. Gather data from users to assess their health needs:  1 month
 5. Based on the information we gather about user’s health need; application will provide a system that determines the best health plans for users:  *1 month*
 6. Create a public and private key that would indicate what information belongs to what user without showing an obvious public connection of which public keys belong to which private keys: *3 days*
+```
 
 
 #### Example of User Stories:
