@@ -64,14 +64,15 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
     • Currently, I am a 20-year-old student who is in the middle of joining a sorority. I have decided to live in the house owned by my sorority. I blacked out and slept with a guy and did not realize that protection was not used. After being in pain and noticed a      rash, I consulted Web MD. I have realized there is a high chance that I contracted herpes. I hope there is a plan the offers a reduced cost on generic drugs.*
 
     • I am a 22-year-old transgender female who was recently diagnosed with HIV. This situation prompted me to stop using crystal meth. I need rehabilitation services and long-term HIV care.  In addition, I was diagnosed with borderline personality disorder, therefore I need dialectical behavioral therapy.*
-```
 
-## Milestone 1:  
+
+## Milestone 1:
+```
 - Draft of website  
 - Interface and working functional algorithm for collecting user information 
 - Create database for log in and register 
 - Create chat and help server 
-
+```
 
 ### Allocated Tasks:
 * *Jackie:	Develop the App, Databases, Log in*
@@ -79,6 +80,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * *Elmira:	User Interface Designer*
 * *Monica:	Gather data*
 * *Farhad:	Security*
+
 
 
 ### User Story and Time Estimates: 
