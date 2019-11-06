@@ -67,6 +67,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 ------
 ## Milestone 1:
+------
 ```
 ★ Draft of website  
 ★ Interface and working functional algorithm for collecting user information 
@@ -75,17 +76,18 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ```
 ------
 ### Allocated Tasks:
+------
 * *Jackie:	Develop the App, Databases, Log in*
 * *Ian:	    Develop the App, Databases, Log in*
 * *Elmira:	User Interface Designer*
 * *Monica:	Gather data*
 * *Farhad:	Security*
 ------
-
-------
 ### User Story and Time Estimates: 
 
+------
 #### Iteration 1:
+------
 * *Velocity: 0.7*
 * *Days of work: 14*
 * *Days we finish: 14/0.7=20*
@@ -105,10 +107,11 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ###### Task 2: 
 1. Create user interface
 2. Save information to database
-------
+
 
 ------
 #### Iteration 2:
+------
 * *Velocity: 0.7*
 * *Days of work: 14*
 * *Days we finish: 14/0.7=20*
@@ -123,16 +126,18 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ##### Gather data from users to assess their health needs:
 ###### Task 2: 
 1. Set up migration system between user interface and database
-------
 
-------
+
+-----
 ## How to run the application
+------
 ### Environment to run the application
 - Python 3.7.8
 - Pip 18.1
 - Virtual Environment 16.0.0
 ------
 ## Run Application command
+------
 **1. from application root activate the virtual environment**
 ```ruby
 * Mac OS
@@ -191,6 +196,7 @@ addopts = --reuse-db
 ```
 ------
 **- Run Tests**
+------
 
 **1. Run Test from inside "app" folder with command "pytest test" after activating virtual environment. Test are located in app/test folder**
 ```ruby
