@@ -162,7 +162,34 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 ### Tests
+- Test Settings
+1. Test uses following pytest.ini settings
+```
+[pytest]
+DJANGO_SETTINGS_MODULE=mysite.settings_test
+addopts = --reuse-db
+```
+2. DJANGO_SETTINGS_MODULE setting is required for providing django context to test.
+```
+"--reuse-db" is option provided by pytest-django plugin. It is used so that test enviroment does not delete the test database
+```
+- Run Tests
+Run Test from inside "app" folder with command "pytest test" after activating virtual environment. Test are located in app/test folder
+```ruby
+(venv) WL-198-226:app abinash$ pytest test
+================================================ test session starts =================================================
+platform darwin -- Python 3.7.0, pytest-3.10.0, py-1.7.0, pluggy-0.7.1
+Django settings: mysite.settings_test (from ini file)
+rootdir: /Users/abinash/Desktop/CGU/Courses/Software Development/project/IST303-Group-Project/app, inifile: pytest.ini
+plugins: django-3.4.3, cov-2.6.0
+collected 25 items
 
+test/test_endpoint.py ......x.x.x........                                                                      [ 76%]
+test/test_model.py ......                                                                                      [100%]
+
+======================================== 22 passed, 3 xfailed in 2.08 seconds ========================================
+(venv) WL-203-33:app abinash$
+```
 
 
 
