@@ -122,14 +122,14 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ### Run Application command
 1. from application root activate the virtual environment
 ```
-- Mac OS
+* Mac OS
 source ./venv/bin/activate 
-- Windows OS
+* Windows OS
 execute/run "activate" file
 ``` 
 2. run Dango server from app folder
 ```
-- use python3 in stead of python if code shows error
+* use python3 in stead of python if code shows error
 cd ./app
 python manage.py runserver
 ```
