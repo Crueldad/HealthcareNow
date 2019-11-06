@@ -3,6 +3,7 @@
 ## Application Concept:
 Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
 
+```
 ### Team Members:
 1. Ian Crueldad
 2. Jacquie Rollins
@@ -16,7 +17,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * Healthcare agencies and hospitals
 * Leaders in the healthcare field
 * Health insurance providers
-
+```
 
 #### Requirements:
 * User Log In
@@ -24,7 +25,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * Make a database
 * Provide best healthcare plan
 
-
+```
 #### User Stories:
 1. User should be able to log in
 2. User should be able to add information to their profile
@@ -56,7 +57,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
     • Currently, I am a 20-year-old student who is in the middle of joining a sorority. I have decided to live in the house owned by my sorority. I blacked out and slept with a guy and did not realize that protection was not used. After being in pain and noticed a      rash, I consulted Web MD. I have realized there is a high chance that I contracted herpes. I hope there is a plan the offers a reduced cost on generic drugs.*
 
     • I am a 22-year-old transgender female who was recently diagnosed with HIV. This situation prompted me to stop using crystal meth. I need rehabilitation services and long-term HIV care.  In addition, I was diagnosed with borderline personality disorder, therefore I need dialectical behavioral therapy.*
-
+```
 
 ## Milestone 1:  
 - Draft of website  
