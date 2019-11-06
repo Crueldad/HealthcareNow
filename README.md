@@ -65,7 +65,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
     • I am a 22-year-old transgender female who was recently diagnosed with HIV. This situation prompted me to stop using crystal meth. I need rehabilitation services and long-term HIV care.  In addition, I was diagnosed with borderline personality disorder, therefore I need dialectical behavioral therapy.*
 
-
+------
 ## Milestone 1:
 ```
 ★ Draft of website  
@@ -73,16 +73,16 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ★ Create database for log in and register 
 ★ Create chat and help server 
 ```
-
+------
 ### Allocated Tasks:
 * *Jackie:	Develop the App, Databases, Log in*
 * *Ian:	    Develop the App, Databases, Log in*
 * *Elmira:	User Interface Designer*
 * *Monica:	Gather data*
 * *Farhad:	Security*
+------
 
-
-
+------
 ### User Story and Time Estimates: 
 
 #### Iteration 1:
@@ -105,8 +105,9 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ###### Task 2: 
 1. Create user interface
 2. Save information to database
+------
 
-
+------
 #### Iteration 2:
 * *Velocity: 0.7*
 * *Days of work: 14*
@@ -122,14 +123,15 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ##### Gather data from users to assess their health needs:
 ###### Task 2: 
 1. Set up migration system between user interface and database
+------
 
-
+------
 ## How to run the application
 ### Environment to run the application
 - Python 3.7.8
 - Pip 18.1
 - Virtual Environment 16.0.0
-
+------
 ## Run Application command
 **1. from application root activate the virtual environment**
 ```ruby
@@ -172,8 +174,9 @@ Django version 2.1.2, using settings 'mysite.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
+------
 ## Tests
-
+------
 **- Test Settings**
 
 **1. Test uses following pytest.ini settings**
@@ -186,7 +189,7 @@ addopts = --reuse-db
 ```ruby
 "--reuse-db" is option provided by pytest-django plugin. It is used so that test enviroment does not delete the test database
 ```
-
+------
 **- Run Tests**
 
 **1. Run Test from inside "app" folder with command "pytest test" after activating virtual environment. Test are located in app/test folder**
