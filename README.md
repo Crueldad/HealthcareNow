@@ -174,7 +174,7 @@ addopts = --reuse-db
 "--reuse-db" is option provided by pytest-django plugin. It is used so that test enviroment does not delete the test database
 ```
 - Run Tests
-Run Test from inside "app" folder with command "pytest test" after activating virtual environment. Test are located in app/test folder
+1. Run Test from inside "app" folder with command "pytest test" after activating virtual environment. Test are located in app/test folder
 ```ruby
 (venv) WL-198-226:app abinash$ pytest test
 ================================================ test session starts =================================================
