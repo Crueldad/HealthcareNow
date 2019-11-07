@@ -146,12 +146,13 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * Mac OS
 source ./venv/bin/activate 
 * Windows OS
-execute/run "activate" file
+ cd healthcarenow 
+ venv/scripts/activate
 ``` 
 **2. run Dango server from app folder**
 ```ruby
 * use python3 in stead of python if code shows error
-cd ./app
+cd src
 python manage.py runserver
 ```
 **3. Stop server by Ctrl + C**
@@ -160,64 +161,31 @@ Ctrl + C
 ```
 **4. Deactivate the virtualenv when not in use**
 ```ruby
-deactivate
+Ctrl + Break
 ```
 **5. Access application from http://localhost:8000/**
 
+
 **6. Sample Application RUN**
 ```ruby
-WL-223-234:IST303-Group-Project abinash$
-WL-223-234:IST303-Group-Project abinash$ ls
-README.md       app             venv
-WL-223-234:IST303-Group-Project abinash$ cd app/
-WL-223-234:app abinash$ ls
-db.sqlite3      manage.py       mysite          news
-WL-223-234:app abinash$ source ../venv/bin/activate
-(venv) WL-223-234:app abinash$ python3 manage.py runserver
+C:\Users\cruel>cd healthcarenow
+
+C:\Users\cruel\HealthcareNow>venv\scripts\activate
+
+(venv) C:\Users\cruel\HealthcareNow>cd src
+
+(venv) C:\Users\cruel\HealthcareNow\src>python manage.py runserver
+Watching for file changes with StatReloader
 Performing system checks...
 
-System check identified no issues (0 silenced).
-October 15, 2018 - 23:13:27
-Django version 2.1.2, using settings 'mysite.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CONTROL-C.
+System check identified 1 issue (0 silenced).
+November 06, 2019 - 16:51:25
+Django version 2.2.6, using settings 'HealthCareNow.settings'
+Starting ASGI/Channels version 2.3.0 development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+(venv) C:\Users\cruel\HealthcareNow\src>
 ```
-------
-## Tests
-------
-**- Test Settings**
-
-**1. Test uses following pytest.ini settings**
-```ruby
-[pytest]
-DJANGO_SETTINGS_MODULE=mysite.settings_test
-addopts = --reuse-db
-```
-**2. DJANGO_SETTINGS_MODULE setting is required for providing django context to test**
-```ruby
-"--reuse-db" is option provided by pytest-django plugin. It is used so that test enviroment does not delete the test database
-```
-------
-**- Run Tests**
-------
-
-**1. Run Test from inside "app" folder with command "pytest test" after activating virtual environment. Test are located in app/test folder**
-```ruby
-(venv) WL-198-226:app abinash$ pytest test
-================================================ test session starts =================================================
-platform darwin -- Python 3.7.0, pytest-3.10.0, py-1.7.0, pluggy-0.7.1
-Django settings: mysite.settings_test (from ini file)
-rootdir: /Users/abinash/Desktop/CGU/Courses/Software Development/project/IST303-Group-Project/app, inifile: pytest.ini
-plugins: django-3.4.3, cov-2.6.0
-collected 25 items
-
-test/test_endpoint.py ......x.x.x........                                                                      [ 76%]
-test/test_model.py ......                                                                                      [100%]
-
-======================================== 22 passed, 3 xfailed in 2.08 seconds ========================================
-(venv) WL-203-33:app abinash$
-```
-
 
 
 
