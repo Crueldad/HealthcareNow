@@ -132,9 +132,12 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ## How to run the application
 ------
 ### Environment to run the application
-- Python 3.7.8
-- Pip 18.1
+- Python 3.7.4
+- Pip 19.2.3
 - Virtual Environment 16.0.0
+- Django 2.2.6
+- PostGreSQL 12
+- SQL Alchemy 1.3
 ------
 ## Run Application command
 ------
