@@ -149,7 +149,7 @@ source ./venv/bin/activate
  cd healthcarenow 
  venv/scripts/activate
 ``` 
-**2. run Dango server from app folder**
+**2. run Django server from app folder**
 ```ruby
 * use python3 in stead of python if code shows error
 cd src
