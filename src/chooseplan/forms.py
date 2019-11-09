@@ -7,7 +7,11 @@ class chooseplanform(forms.ModelForm):
     class Meta:
         model = questions
         fields = '__all__'
-        widgets = {'Gender': forms.CheckboxSelectMultiple, 'Age': forms.CheckboxSelectMultiple, 'Are_you_currently_taking_pescribed_medication': forms.CheckboxSelectMultiple, 'Which_services_are_most_important_for_you_in_a_health_plan': forms.CheckboxSelectMultiple, 'Select_all_conditions_you_have_been_diagnosed_with': forms.CheckboxSelectMultiple, 'Has_a_doctor_notified_you_as_a_candidate_for': forms.CheckboxSelectMultiple}
+        widgets = {'Gender': forms.RadioSelect, 'Age': forms.RadioSelect, 'Do_you_get_routine_vaccines_or_flu_shots': forms.RadioSelect,  'Do_you_often_use_preventative_services': forms.RadioSelect,  'Do_you_need_prenatal_maternity_services': forms.RadioSelect, \
+        'Do_you_need_OBGYN_services': forms.RadioSelect, 'Do_you_want_to_keep_your_current_doctor': forms.RadioSelect, 'Do_you_need_to_see_various_specialists': forms.RadioSelect, 'Is_emergency_care_or_hospital_care_a_priority': forms.RadioSelect, 'Are_you_diagnosed_with_heart_disease': forms.RadioSelect, 'Are_you_diagnosed_with_cancer': forms.RadioSelect, \
+        'Are_you_pregnant': forms.RadioSelect, 'Are_you_diabetic': forms.RadioSelect, 'Do_you_need_help_with_substance_abuse': forms.RadioSelect, 'Do_you_need_treatement_for_HIV_or_Aids': forms.RadioSelect, 'Do_you_need_treatment_for_depression': forms.RadioSelect, 'Do_you_need_treatment_for_anxiety': forms.RadioSelect, \
+        'Do_you_need_help_with_other_mental_health_disorders': forms.RadioSelect, 'Are_you_a_candidate_for_cataract_surgery': forms.RadioSelect, 'Are_you_a_candidate_for_knee_replacement': forms.RadioSelect, 'Are_you_a_candidate_for_hip_replacement': forms.RadioSelect,
+        'Are_you_currently_taking_pescribed_medication': forms.RadioSelect, 'Do_you_receive_regular_physicals_and_health_screenings': forms.RadioSelect}
 
 
 
