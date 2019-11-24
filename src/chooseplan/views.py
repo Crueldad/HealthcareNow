@@ -53,24 +53,27 @@ def chooseplan(request):
 
 def show_chooseplan(request):
     plan_lists=''
-    plan_lists += '<h2>Here are the best plans for you condition</h2> <br>'
+    plan_lists += '<center><img src="http://jipadev.wpengine.com/wp-content/uploads/2013/07/Payor-Header.jpg" width="1600" height="400"</center>'
+    plan_lists += '<center><h2>Here are the best plans for you condition</h2></center><br>'
     try:
         test_result = match_code1(ret_code1(get_data1("self")))
         if test_result == []:
             test_result = "No or not enough answers checked"
         # details = {'Here are the best plans for you condition': (test_result)}
         if 'Sharp_Silver_70_HMO' in test_result:
-            plan_lists += '<h2>Sharp Silver 70HMO - For Sharp Silver Plan click:</h2> <br>' 
-            plan_lists += '<a href="https://www.sharphealthplan.com/docs/default-source/group-plans/2019/sg-sbc-on-exchange/20360_sbc_ccsb-sharp-premier-silver-70-hmo-2000-45-child-dental.pdf"><img src="https://www.healthforcalifornia.com/bundles/website/img/carrier-logos/sharp.png" style="width:200x;height:200px;border:0;"></a><br>'
+            plan_lists += '<center><h2>Sharp Silver 70HMO - For Sharp Silver Plan click:</h2></center><br>' 
+            plan_lists += '<center><a href="https://www.sharphealthplan.com/docs/default-source/group-plans/2019/sg-sbc-on-exchange/20360_sbc_ccsb-sharp-premier-silver-70-hmo-2000-45-child-dental.pdf"><img src="https://www.healthforcalifornia.com/bundles/website/img/carrier-logos/sharp.png" style="width:200x;height:200px;border:0;"></a></center><br>'
         if 'Kaiser_Covered_California_Silver_87_HMO' in test_result:
-            plan_lists += '<h2>Kaiser Covered California Silver 87 HMO - For Kaiser Covered California Silver Plan click:</h2> <br>'
-            plan_lists += '<a href="http://info.kaiserpermanente.org/healthplans/california/individual/pdfs/2019-ON-Exchange/Silver_87_HMO.pdf"><img src="https://1000logos.net/wp-content/uploads/2019/05/Kaiser-Permanente-Logo.png" style="width:400px;height:300px;border:0;"></a><br>'
+            plan_lists += '<center><h2>Kaiser Covered California Silver 87 HMO - For Kaiser Covered California Silver Plan click:</h2></center><br>'
+            plan_lists += '<center><a href="http://info.kaiserpermanente.org/healthplans/california/individual/pdfs/2019-ON-Exchange/Silver_87_HMO.pdf"><img src="https://1000logos.net/wp-content/uploads/2019/05/Kaiser-Permanente-Logo.png" style="width:400px;height:300px;border:0;"></a></center><br>'
         if 'LA_Coverd_Silver_70_HMO' in test_result:
-            plan_lists += '<h2>LA Coverd Silver 70 HMO - For LA Coverd Silver plan click:</h2> <br>'
-            plan_lists += '<a href="https://www.lacare.org/sites/default/files/LA0922b_2019_LACC_SBC_Silver_70_1018.pdf"><img src="https://hitconsultant.net/wp-content/uploads/2019/09/Blue-Shield-of-CA-Announces-New-146-Million-Collaboration-Aimed-at-Keeping-Healthcare-Loca.png" style="width:400px;height:300px;border:0;"></a><br>'
+            plan_lists += '<center><h2>LA Coverd Silver 70 HMO - For LA Coverd Silver plan click:</h2></center><br>'
+            plan_lists += '<center><a href="https://www.lacare.org/sites/default/files/LA0922b_2019_LACC_SBC_Silver_70_1018.pdf"><img src="https://hitconsultant.net/wp-content/uploads/2019/09/Blue-Shield-of-CA-Announces-New-146-Million-Collaboration-Aimed-at-Keeping-Healthcare-Loca.png" style="width:400px;height:300px;border:0;"></a></center><br>'
         if 'Blue_Shield_87_PPO_Silver' in test_result:
-            plan_lists += '<h2>Blue Shield 87 PPO Silver - For Blue Shield Silver plan click:</h2><br>'
-            plan_lists += '<a href="https://www.blueshieldca.com/bsca/bsc/public/broker/PortalComponents/StreamDocumentServlet?fileName=Silver_87_PPO_1-18_SOB.pdf"><img src="https://mma.prnewswire.com/media/810201/blue_jpg_Logo.jpg?p=facebook" style="width:450px;height:300px;border:0;"></a><br>'
+            plan_lists += '<center><h2>Blue Shield 87 PPO Silver - For Blue Shield Silver plan click:</h2></center><br>'
+            plan_lists += '<center><a href="https://www.blueshieldca.com/bsca/bsc/public/broker/PortalComponents/StreamDocumentServlet?fileName=Silver_87_PPO_1-18_SOB.pdf"><img src="https://mma.prnewswire.com/media/810201/blue_jpg_Logo.jpg?p=facebook" style="width:450px;height:300px;border:0;"></a></center><br>'
+        plan_lists += '<br>'
+        plan_lists += '<img src="http://digitalhealthage.com/wp-content/uploads/2015/09/Event-Integrated-health.jpg" width="1600" height="400">'
     except:
         test_result = "No or not enough answers checked"
     return HttpResponse(plan_lists)
