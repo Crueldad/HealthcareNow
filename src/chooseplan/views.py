@@ -24,10 +24,10 @@ Health_Care_Plans  =    [
                         {'Sharp_Silver_70_HMO': {"Specialist": '3S', 'Preventive_Care': "1PC", "Diagnostic_Test": "3DT", "Generic_Drugs": "4GD",
 "Outpatien_Surgery":'3OS', 'Immediate_Medical_Attention': '3IMA', 'Outpatient_Services/Inpatient_Services': '1OSIS', 'Pregnant': "2P", 'Home_Health_Care': '3HHC',
 'Rehabilitation_Services': '3RS', 'Skilled_Nursing_Care': '3SNC'}},
-                        {'Kaiser_Covered_California_Silver_87_HMO' : {"Specialist": '1S', 'Preventive_Care': "2PC", "Diagnostic_Test": "1DT", "Generic_Drugs": "2GD",
+                        {'Kaiser_Covered_California_Silver_87_HMO' : {"Specialist": '1S', 'Preventive_Care': "2PC", "Diagnostic_Test": "2DT", "Generic_Drugs": "2GD",
 "Outpatien_Surgery":'1OS', 'Immediate_Medical_Attention': '2IMA', 'Outpatient_Services/Inpatient_Services': '3OSIS', 'Pregnant': "4P", 'Home_Health_Care': '2HHC',
 'Rehabilitation_Services': '1RS', 'Skilled_Nursing_Care': '2SNC'}},
-                        {'LA_Coverd_Silver_70_HMO' : {"Specialist": '4S', 'Preventive_Care': "3PC", "Diagnostic_Test": "2DT", "Generic_Drugs": "3GD",
+                        {'LA_Coverd_Silver_70_HMO' : {"Specialist": '4S', 'Preventive_Care': "3PC", "Diagnostic_Test": "1DT", "Generic_Drugs": "3GD",
 "Outpatien_Surgery":'4OS', 'Immediate_Medical_Attention': '4IMA', 'Outpatient_Services/Inpatient_Services': '4OSIS', 'Pregnant': "3P", 'Home_Health_Care': '4HHC',
 'Rehabilitation_Services': '4RS', 'Skilled_Nursing_Care': '4SNC'}},
                         {'Blue_Shield_87_PPO_Silver' : {"Specialist": '2S', 'Preventive_Care': "4PC", "Diagnostic_Test": "1DT", "Generic_Drugs": "1GD",
@@ -52,14 +52,28 @@ def chooseplan(request):
 
 
 def show_chooseplan(request):
+    plan_lists=''
+    plan_lists += '<h2>Here are the best plans for you condition</h2> <br>'
     try:
         test_result = match_code1(ret_code1(get_data1("self")))
         if test_result == []:
             test_result = "No or not enough answers checked"
-        details = {'Here are the best plans for you condition': (test_result)}
+        # details = {'Here are the best plans for you condition': (test_result)}
+        if 'Sharp_Silver_70_HMO' in test_result:
+            plan_lists += '<h2>Sharp Silver 70HMO - For Sharp Silver Plan click:</h2> <br>' 
+            plan_lists += '<a href="https://www.sharphealthplan.com/docs/default-source/group-plans/2019/sg-sbc-on-exchange/20360_sbc_ccsb-sharp-premier-silver-70-hmo-2000-45-child-dental.pdf"><img src="https://www.healthforcalifornia.com/bundles/website/img/carrier-logos/sharp.png" style="width:200x;height:200px;border:0;"></a><br>'
+        if 'Kaiser_Covered_California_Silver_87_HMO' in test_result:
+            plan_lists += '<h2>Kaiser Covered California Silver 87 HMO - For Kaiser Covered California Silver Plan click:</h2> <br>'
+            plan_lists += '<a href="http://info.kaiserpermanente.org/healthplans/california/individual/pdfs/2019-ON-Exchange/Silver_87_HMO.pdf"><img src="https://1000logos.net/wp-content/uploads/2019/05/Kaiser-Permanente-Logo.png" style="width:400px;height:300px;border:0;"></a><br>'
+        if 'LA_Coverd_Silver_70_HMO' in test_result:
+            plan_lists += '<h2>LA Coverd Silver 70 HMO - For LA Coverd Silver plan click:</h2> <br>'
+            plan_lists += '<a href="https://www.lacare.org/sites/default/files/LA0922b_2019_LACC_SBC_Silver_70_1018.pdf"><img src="https://hitconsultant.net/wp-content/uploads/2019/09/Blue-Shield-of-CA-Announces-New-146-Million-Collaboration-Aimed-at-Keeping-Healthcare-Loca.png" style="width:400px;height:300px;border:0;"></a><br>'
+        if 'Blue_Shield_87_PPO_Silver' in test_result:
+            plan_lists += '<h2>Blue Shield 87 PPO Silver - For Blue Shield Silver plan click:</h2><br>'
+            plan_lists += '<a href="https://www.blueshieldca.com/bsca/bsc/public/broker/PortalComponents/StreamDocumentServlet?fileName=Silver_87_PPO_1-18_SOB.pdf"><img src="https://mma.prnewswire.com/media/810201/blue_jpg_Logo.jpg?p=facebook" style="width:450px;height:300px;border:0;"></a><br>'
     except:
         test_result = "No or not enough answers checked"
-    return HttpResponse(json.dumps(details))
+    return HttpResponse(plan_lists)
     
 
 

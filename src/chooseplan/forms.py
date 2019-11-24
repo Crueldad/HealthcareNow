@@ -1,7 +1,6 @@
 from django import forms
 from .models import questions
 from django.forms import ModelForm
-from multiselectfield import MultiSelectField
 
 class chooseplanform(forms.ModelForm):
     class Meta:
