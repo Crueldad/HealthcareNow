@@ -58,7 +58,7 @@ def show_chooseplan(request):
     try:
         test_result = match_code1(ret_code1(get_data1("self")))
         if test_result == []:
-            test_result = "No or not enough answers checked"
+            plan_lists += "<h2>No or not enough answers checked</h2><br>"
         # details = {'Here are the best plans for you condition': (test_result)}
         if 'Sharp_Silver_70_HMO' in test_result:
             plan_lists += '<center><h2>Sharp Silver 70HMO - For Sharp Silver Plan click:</h2></center><br>' 
