@@ -3,28 +3,6 @@ from django.db import models
 
 # Create your models here.
 
-class finaloutput(models.Model):
-    Best_plans = models.CharField(max_length=500, blank=True)
-    FinalSubmissions = models.ForeignKey('questions', on_delete=models.DO_NOTHING)
-
-
-class Healthcare_Categories(models.Model):
-    UserID = models.IntegerField(blank=True, primary_key=True)
-    UserName = models.CharField(max_length=50, blank=True)
-    UserEmail = models.CharField(max_length=50, blank=True)
-    UserPassword = models.CharField(max_length=50, blank=True)
-    SpecialistServices = models.CharField(max_length=50, blank=True)
-    PreventativeCare = models.CharField(max_length=50, blank=True)
-    DiagnosticTest = models.CharField(max_length=50, blank=True)
-    GenericDrugs = models.CharField(max_length=50, blank=True)
-    OutpatientSurgery = models.CharField(max_length=50, blank=True)
-    ImmediateMedicalAttention = models.CharField(max_length=50, blank=True)
-    OutpatientInpatient = models.CharField(max_length=50, blank=True)
-    Pregnancy = models.CharField(max_length=50, blank=True)
-    HomeHealthCare = models.CharField(max_length=50, blank=True)
-    RehabilationServices = models.CharField(max_length=50, blank=True)
-    SkilledNursingCare = models.CharField(max_length=50, blank=True)
-    formSubmissions = models.ForeignKey('questions', on_delete=models.DO_NOTHING)
 
 class questions(models.Model):
     Gender = (

@@ -36,10 +36,6 @@ Health_Care_Plans  =    [
 ]
 
 
-
-# def chooseplan(request):
-#     return render(request, 'chooseplan/chooseplan.html')
-
 def chooseplan(request):
     if request.method == 'POST':
         form = chooseplanform(request.POST)
@@ -54,7 +50,7 @@ def chooseplan(request):
 def show_chooseplan(request):
     plan_lists=''
     plan_lists += '<center><img src="http://jipadev.wpengine.com/wp-content/uploads/2013/07/Payor-Header.jpg" width="1600" height="400"</center>'
-    plan_lists += '<center><h2>Here are the best plans for you condition</h2></center><br>'
+    plan_lists += '<center><h2>Here are the best plans for your condition</h2></center><br>'
     try:
         test_result = match_code1(ret_code1(get_data1("self")))
         if test_result == []:
@@ -78,52 +74,6 @@ def show_chooseplan(request):
         test_result = "No or not enough answers checked"
     return HttpResponse(plan_lists)
     
-
-
-def ret_code(provider_list):
-    healthlist = [ ]
-    for i in provider_list:
-        ilist = list(i)
-        for b in range (len(ilist)):
-            if '32S' and '20S' in ilist:
-                healthlist.append("1S")
-            if '12PC' and '14PC' in ilist:
-                healthlist.append("1PC")
-            if '10DT' and '42DT' in ilist:
-                healthlist.append("1DT")
-            if '8GD' and '18GD' in ilist:
-                healthlist.append("1GD")
-            if '44OS' and '26OSSNC' in ilist:
-                healthlist.append("1OS")
-            if '36IMA' and '24IMARS' in ilist:
-                healthlist.append("1IMA")
-            if '34OSIS' and '40OSIS' in ilist:
-                healthlist.append("1OSIS")
-            if '16P' and '30P' in ilist:
-                healthlist.append("1P")
-            if '48HHC' and '46HHC' in ilist:
-                healthlist.append("1HHC")
-            if '38RS' and '24IMARS' in ilist:
-                healthlist.append("1RS")
-            if '28SNC' and '26OSSNC' in ilist:
-                healthlist.append("1SNC")
-            return healthlist
-
-def match_code(hcp):
-    final_outcome = [ ]
-    final_outcome_improved = [ ]
-    for mc in hcp:
-        for hp in Health_Care_Plans:
-            for plans in hp.values():
-                for plans_attributes in plans.values():
-                    if mc in plans_attributes:
-                        final_outcome.append(list(hp.keys()))
-                        for f in final_outcome:
-                            if f not in final_outcome_improved:
-                                final_outcome_improved.append(f)
-                                finalized = list(chain(*final_outcome_improved))
-    return (finalized)
-
 # =================================
 
 def get_data1(self):
@@ -131,8 +81,6 @@ def get_data1(self):
     result_proxy = connection.execute(stmt)
     results = result_proxy.fetchall()
     return results
-
-
 
 def ret_code1(provider_list):
     healthlist = [ ] 
