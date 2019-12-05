@@ -86,7 +86,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ### User Story and Time Estimates: 
 
 ------
-#### Iteration 1:
+#### Milestone 1:
 ------
 * *Velocity: 0.7*
 * *Days of work: 14*
@@ -94,7 +94,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * *Each person work days: 20/5= 4*
 
 ##### User should be able to log in 
-###### Task 1: 
+###### Iteration 1: 
 1. Data model in Django 
 2. Create user interface 
 3. Commands for inserting new users in database 
@@ -104,28 +104,41 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 
 ##### User should be able to add information to their profile 
-###### Task 2: 
+###### Iteration 2: 
 1. Create user interface
 2. Save information to database
 
 
 ------
-#### Iteration 2:
+## Milestone 2:
+------
+```
+★ Gather data from users to assess their health needs and
+★ Based on the information we gather about user’s health need; application will provide a system that determines the best health plans for users:  *1 month*
+```
+------
+### Allocated Tasks:
+------
+* *Ian:	    Write the Algorithm*
+* *Elmira:	User Interface Designer*
+* *Monica:	Gather data*
+* *Farhad:	Security*
+------
+### User Story and Time Estimates: 
+
+------
+#### Milestone 2:
 ------
 * *Velocity: 0.7*
-* *Days of work: 14*
-* *Days we finish: 14/0.7=20*
-* *Each person work days: 20/5= 4*
-
-##### User should be able to input their healthcare needs and health symptoms: 
-###### Task 1: 
-1. Create a database with heath categories
-2. Input objects on website 
+* *Days of work: 30*
+* *Days we finish: 30/0.7=42*
+* *Each person work days: 42/5=11*
 
 
 ##### Gather data from users to assess their health needs:
-###### Task 2: 
+###### Iteration 1: 
 1. Set up migration system between user interface and database
+
 
 
 -----
