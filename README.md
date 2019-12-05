@@ -1,7 +1,7 @@
 # HealthcareNow
 
 ## Application Concept:
-Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
+Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low levels of health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
 
 
 **Team Members:**
@@ -86,7 +86,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ### User Story and Time Estimates: 
 
 ------
-#### Iteration 1:
+#### Milestone 1:
 ------
 * *Velocity: 0.7*
 * *Days of work: 14*
@@ -94,7 +94,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * *Each person work days: 20/5= 4*
 
 ##### User should be able to log in 
-###### Task 1: 
+###### Iteration 1: 
 1. Data model in Django 
 2. Create user interface 
 3. Commands for inserting new users in database 
@@ -104,28 +104,41 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 
 ##### User should be able to add information to their profile 
-###### Task 2: 
+###### Iteration 2: 
 1. Create user interface
 2. Save information to database
 
 
 ------
-#### Iteration 2:
+## Milestone 2:
+------
+```
+★ Gather data from users to assess their health needs and
+★ Based on the information we gather about user’s health need; application will provide a system that determines the best health plans for users:  *1 month*
+```
+------
+### Allocated Tasks:
+------
+* *Ian:	    Write the Algorithm*
+* *Elmira:	User Interface Designer*
+* *Monica:	Gather data*
+* *Farhad:	Security*
+------
+### User Story and Time Estimates: 
+
+------
+#### Milestone 2:
 ------
 * *Velocity: 0.7*
-* *Days of work: 14*
-* *Days we finish: 14/0.7=20*
-* *Each person work days: 20/5= 4*
-
-##### User should be able to input their healthcare needs and health symptoms: 
-###### Task 1: 
-1. Create a database with heath categories
-2. Input objects on website 
+* *Days of work: 30*
+* *Days we finish: 30/0.7=42*
+* *Each person work days: 42/5=11*
 
 
 ##### Gather data from users to assess their health needs:
-###### Task 2: 
+###### Iteration 1: 
 1. Set up migration system between user interface and database
+
 
 
 -----
@@ -187,7 +200,10 @@ Quit the server with CTRL-BREAK.
 (venv) C:\Users\cruel\HealthcareNow\src>
 ```
 
-
+## The three most important things we learned about software development in our project:
+1. We learned that it is crucial to have at least two people understand how to operate each tool that is used in the project in case of complications.
+2. It is more advantageous to complete the project if the code is written in an efficient (functional) manner and is applicable to various scenarios.
+3. Roles should be established at the beginning of the project based on the expertise of each person. furthermore;  there should be a working document detailing user stories to help find our path at each iteration.
 
 
 
