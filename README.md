@@ -1,7 +1,7 @@
 # HealthcareNow
 
 ## Application Concept:
-Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
+Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low levels of health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
 
 
 **Team Members:**
