@@ -187,7 +187,10 @@ Quit the server with CTRL-BREAK.
 (venv) C:\Users\cruel\HealthcareNow\src>
 ```
 
-
+## The three most important things we learned about software development in our project:
+1. We learned that it is crucial to have at least two people understand how to operate each tool that is used in the project in case of complications.
+2. It is more advantageous to complete the project if the code is written in an efficient (functional) manner and is applicable to various scenarios.
+3. Roles should be established at the beginning of the project based on the expertise of each person. furthermore;  there should be a working document detailing user stories to help find our path at each iteration.
 
 
 
