@@ -1,2 +1,2 @@
-def test_chat_stub():
-    assert True
+# def test_chat_stub():
+#     assert True
