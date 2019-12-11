@@ -36,7 +36,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 3. User should be able to input their healthcare needs and health symptoms 
 4. Gather data from users to assess their health needs
 5. Based on the information we gather about user’s health need; application will provide a system that determines the best health plans  for users
-6. Create a public and private key that would indicate what information belongs to what user without showing an obvious public connection of which public keys belong to which private keys. 
+
 ```
 
 
@@ -155,7 +155,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ## Run Application command
 ------
 **1. from application root activate the virtual environment**
-```ruby
+```
 * Mac OS
 source ./venv/bin/activate 
 * Windows OS
@@ -163,24 +163,24 @@ source ./venv/bin/activate
  venv/scripts/activate
 ``` 
 **2. run Django server from app folder**
-```ruby
+```
 * use python3 in stead of python if code shows error
 cd src
 python manage.py runserver
 ```
 **3. Stop server by Ctrl + C**
-```ruby
+```
 Ctrl + C
 ```
 **4. Deactivate the virtualenv when not in use**
-```ruby
+```
 Ctrl + Break
 ```
 **5. Access application from http://localhost:8000/**
 
 
 **6. Sample Application RUN**
-```ruby
+```
 C:\Users\cruel>cd healthcarenow
 
 C:\Users\cruel\HealthcareNow>venv\scripts\activate
