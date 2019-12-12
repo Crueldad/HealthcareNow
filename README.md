@@ -1,10 +1,10 @@
 # HealthcareNow
 
-## Application Concept:
+## Application Concept: :triangular_flag_on_post:
 Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low levels of health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
 
 
-**Team Members:**
+**Team Members:** :triangular_flag_on_post:
 ```
 1. Ian Crueldad
 2. Jacquie Rollins
@@ -13,7 +13,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 5. Farhad Turabi 
 ```
 
-**Stakeholders:**
+**Stakeholders:** :triangular_flag_on_post:
 ```
 * Campus represenativies
 * Students
@@ -22,14 +22,14 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * Health insurance providers
 ```
 
-#### Requirements:
+#### Requirements: :triangular_flag_on_post:
 * User Log In
 * Collect User Info
 * Make a database
 * Provide best healthcare plan
 
 
-#### User Stories:
+#### User Stories: :triangular_flag_on_post:
 ```
 1. User should be able to log in
 2. User should be able to add information to their profile
@@ -40,7 +40,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ```
 
 
-#### Completion Times for User Stories:
+#### Completion Times for User Stories: :triangular_flag_on_post:
 ```
 1. User should be able to log in: 5 days
 2. User should be able to add information to their profile: *5 days*
@@ -51,7 +51,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ```
 
 
-#### Example of User Stories:
+#### Example of User Stories: :triangular_flag_on_post:
 
     • I am a F1 visa student. I go to the gym a lot. I have noticed occasionally that I tend to strain some of my muscles after a hard work out.  I am looking for the best insurance plan for me in case I injure myself.* 
 
@@ -66,7 +66,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
     • I am a 22-year-old transgender female who was recently diagnosed with HIV. This situation prompted me to stop using crystal meth. I need rehabilitation services and long-term HIV care.  In addition, I was diagnosed with borderline personality disorder, therefore I need dialectical behavioral therapy.*
 
 ------
-## Milestone 1:
+## Milestone 1: :triangular_flag_on_post:
 ------
 ```
 ★ Draft of website  
@@ -75,7 +75,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ★ Create chat and help server 
 ```
 ------
-### Allocated Tasks:
+### Allocated Tasks: :triangular_flag_on_post:
 ------
 * *Jackie:	Develop the App, Databases, Log in*
 * *Ian:	    Develop the App, Databases, Log in*
@@ -83,17 +83,17 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * *Monica:	Gather data*
 * *Farhad:	Security*
 ------
-### User Story and Time Estimates: 
+### User Story and Time Estimates: :triangular_flag_on_post:
 
 ------
-#### Milestone 1:
+#### Milestone 1: :triangular_flag_on_post:
 ------
 * *Velocity: 0.7*
 * *Days of work: 14*
 * *Days we finish: 14/0.7=20*
 * *Each person work days: 20/5= 4*
 
-##### User should be able to log in 
+##### User should be able to log in :triangular_flag_on_post:
 ###### Iteration 1: 
 1. Data model in Django 
 2. Create user interface 
@@ -103,21 +103,21 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 
 
-##### User should be able to add information to their profile 
+##### User should be able to add information to their profile :triangular_flag_on_post:
 ###### Iteration 2: 
 1. Create user interface
 2. Save information to database
 
 
 ------
-## Milestone 2:
+## Milestone 2: :triangular_flag_on_post:
 ------
 ```
 ★ Gather data from users to assess their health needs and
 ★ Based on the information we gather about user’s health need; application will provide a system that determines the best health plans for users:  *1 month*
 ```
 ------
-### Allocated Tasks:
+### Allocated Tasks: :triangular_flag_on_post:
 ------
 * *Ian:	    Write the Algorithm*
 * *Elmira:	User Interface Designer*
@@ -127,7 +127,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ### User Story and Time Estimates: 
 
 ------
-#### Milestone 2:
+#### Milestone 2: :triangular_flag_on_post:
 ------
 * *Velocity: 0.7*
 * *Days of work: 30*
@@ -135,16 +135,16 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 * *Each person work days: 42/5=11*
 
 
-##### Gather data from users to assess their health needs:
+##### Gather data from users to assess their health needs: :triangular_flag_on_post:
 ###### Iteration 1: 
 1. Set up migration system between user interface and database
 
 
 
 -----
-## How to run the application
+## How to run the application :triangular_flag_on_post:
 ------
-### Environment to run the application
+### Environment to run the application :triangular_flag_on_post:
 - Python 3.7.4
 - Pip 19.2.3
 - Virtual Environment 16.0.0
@@ -152,9 +152,9 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 - PostGres 12
 - SQL Alchemy 1.3
 ------
-## Run Application command
+## Run Application command :triangular_flag_on_post:
 ------
-**1. from application root activate the virtual environment**
+**1. from application root activate the virtual environment** :triangular_flag_on_post:
 ```ruby
 * Mac OS
 source ./venv/bin/activate 
@@ -162,24 +162,24 @@ source ./venv/bin/activate
  cd healthcarenow 
  venv/scripts/activate
 ``` 
-**2. run Django server from app folder**
+**2. run Django server from app folder** :triangular_flag_on_post:
 ```ruby
 * use python3 in stead of python if code shows error
 cd src
 python manage.py runserver
 ```
-**3. Stop server by Ctrl + C**
+**3. Stop server by Ctrl + C** :triangular_flag_on_post:
 ```ruby
 Ctrl + C
 ```
-**4. Deactivate the virtualenv when not in use**
+**4. Deactivate the virtualenv when not in use** :triangular_flag_on_post:
 ```ruby
 Ctrl + Break
 ```
-**5. Access application from http://localhost:8000/**
+**5. Access application from http://localhost:8000/** :triangular_flag_on_post:
 
 
-**6. Sample Application RUN**
+**6. Sample Application RUN** :triangular_flag_on_post:
 ```ruby
 C:\Users\cruel>cd healthcarenow
 
@@ -199,7 +199,7 @@ Quit the server with CTRL-BREAK.
 
 (venv) C:\Users\cruel\HealthcareNow\src>
 ```
-**7. How to Run the Test (Go to the Test Folder)**
+**7. How to Run the Test (Go to the Test Folder)** :triangular_flag_on_post:
 ```ruby
 * Mac OS
 cd src - > cd Tests
@@ -208,7 +208,7 @@ HealthcareNow\src>cd Tests
  cd src - > cd Tests
 HealthcareNow\src>cd Tests
 ```
-**8. Run Pytest**
+**8. Run Pytest** :triangular_flag_on_post:
 ```ruby
 * Mac OS
 HealthcareNow\src\Tests> pytest -v
@@ -216,15 +216,15 @@ HealthcareNow\src\Tests> pytest -v
 
 HealthcareNow\src\Tests> pytest -v
 ```
-**9. Run Our Extraordinary Test Coverage**
+**9. Run Our Extraordinary Test Coverage** :triangular_flag_on_post:
 ```ruby
 * Mac OS
 HealthcareNow\src\Tests> pytest --cov=HealthcareNow
 * Windows OS
 
 HealthcareNow\src\Tests> pytest --cov=HealthcareNow
-```
-**10. Tests Performed on our Application**
+``` 
+**10. Tests Performed on our Application** :triangular_flag_on_post:
 ```ruby
 def test_match_code1():
     a = match_code1('1OSIS')
@@ -390,13 +390,13 @@ def test_choosepl():
     assert resolve(path).view_name == 'show_chooseplan'
 ```
 -----
-## This is our test coverage!!! 99% :100:
+## This is our test coverage!!! 99% :100: :triangular_flag_on_post:
 ![Test Coverage](https://github.com/Crueldad/HealthcareNow/blob/master/Test%20Coverage.png)
 
 
 
 -------
-## The three most important things we learned about software development in our project:
+## The three most important things we learned about software development in our project: :triangular_flag_on_post:
 1. We learned that it is crucial to have at least two people understand how to operate each tool that is used in the project in case of complications.
 2. It is more advantageous to complete the project if the code is written in an efficient (functional) manner and is applicable to various scenarios.
 3. Roles should be established at the beginning of the project based on the expertise of each person. furthermore;  there should be a working document detailing user stories to help find our path at each iteration.
