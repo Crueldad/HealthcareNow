@@ -155,7 +155,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ## Run Application command
 ------
 **1. from application root activate the virtual environment**
-```
+```ruby
 * Mac OS
 source ./venv/bin/activate 
 * Windows OS
@@ -163,24 +163,24 @@ source ./venv/bin/activate
  venv/scripts/activate
 ``` 
 **2. run Django server from app folder**
-```
+```ruby
 * use python3 in stead of python if code shows error
 cd src
 python manage.py runserver
 ```
 **3. Stop server by Ctrl + C**
-```
+```ruby
 Ctrl + C
 ```
 **4. Deactivate the virtualenv when not in use**
-```
+```ruby
 Ctrl + Break
 ```
 **5. Access application from http://localhost:8000/**
 
 
 **6. Sample Application RUN**
-```
+```ruby
 C:\Users\cruel>cd healthcarenow
 
 C:\Users\cruel\HealthcareNow>venv\scripts\activate
@@ -200,7 +200,7 @@ Quit the server with CTRL-BREAK.
 (venv) C:\Users\cruel\HealthcareNow\src>
 ```
 **7. How to run the test in our Application**
-```
+```ruby
 def test_match_code1():
     a = match_code1('1OSIS')
     if 'Sharp_Silver_70_HMO' in a:
