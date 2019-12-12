@@ -199,7 +199,7 @@ Quit the server with CTRL-BREAK.
 
 (venv) C:\Users\cruel\HealthcareNow\src>
 ```
-**7. How to run the test in our Application**
+**7. Tests Performed on our Application**
 ```ruby
 def test_match_code1():
     a = match_code1('1OSIS')
@@ -366,7 +366,7 @@ def test_choosepl():
 ```
 -----
 ###This is our test coverage!!!
-![Test Coverage] (https://ibb.co/2st5xRG)
+![Test Coverage](https://ibb.co/2st5xRG)
 
 -------
 ## The three most important things we learned about software development in our project:
