@@ -390,7 +390,7 @@ def test_choosepl():
     assert resolve(path).view_name == 'show_chooseplan'
 ```
 -----
-## This is our test coverage!!! 99%
+## This is our test coverage!!! 99% :100:
 ![Test Coverage](https://github.com/Crueldad/HealthcareNow/blob/master/Test%20Coverage.png)
 
 
