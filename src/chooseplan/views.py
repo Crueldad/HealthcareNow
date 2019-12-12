@@ -89,25 +89,25 @@ def ret_code1(provider_list):
         for b in range (len(ilist)):
             if '32S' and '20S' in ilist:
                 healthlist.append("1S")
-            elif '12PC' and '14PC' in ilist:
+            if '12PC' and '14PC' in ilist:
                 healthlist.append("1PC")
-            elif '10DT' and '42DT' in ilist:
+            if '10DT' and '42DT' in ilist:
                 healthlist.append("1DT")
-            elif '8GD' and '18GD' in ilist:
+            if '8GD' and '18GD' in ilist:
                 healthlist.append("1GD")
-            elif '44OS' and '26OSSNC' in ilist:
+            if '44OS' and '26OSSNC' in ilist:
                 healthlist.append("1OS")
-            elif '36IMA' and '24IMARS' in ilist:
+            if '36IMA' and '24IMARS' in ilist:
                 healthlist.append("1IMA")
-            elif '34OSIS' and '40OSIS' in ilist:
+            if '34OSIS' and '40OSIS' in ilist:
                 healthlist.append("1OSIS")
-            elif '16P' and '30P' in ilist:
+            if '16P' and '30P' in ilist:
                 healthlist.append("1P")
-            elif '48HHC' and '46HHC' in ilist:
+            if '48HHC' and '46HHC' in ilist:
                 healthlist.append("1HHC")
-            elif '38RS' and '24IMARS' in ilist:
+            if '38RS' and '24IMARS' in ilist:
                 healthlist.append("1RS")
-            elif '28SNC' and '26OSSNC' in ilist:
+            if '28SNC' and '26OSSNC' in ilist:
                 healthlist.append("1SNC")
             return healthlist
 
