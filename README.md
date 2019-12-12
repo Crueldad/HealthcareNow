@@ -366,7 +366,9 @@ def test_choosepl():
 ```
 -----
 ###This is our test coverage!!!
-![Test Coverage](https://ibb.co/2st5xRG)
+![Test Coverage](https://imgur.com/a/N6rBLki)
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/N6rBLki"><a href="//imgur.com/a/N6rBLki"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 -------
 ## The three most important things we learned about software development in our project:
