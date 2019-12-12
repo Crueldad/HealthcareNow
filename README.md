@@ -1,4 +1,4 @@
-# HealthcareNow :green_heart: :blue_heart: :green_heart: :gift_heart:
+# HealthcareNow :green_heart: :blue_heart: green_heart: :gift_heart:
 
 ## Application Concept: :triangular_flag_on_post:
 Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low levels of health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
@@ -390,14 +390,14 @@ def test_choosepl():
     assert resolve(path).view_name == 'show_chooseplan'
 ```
 -----
-## This is our test coverage!!! 99% :100: :triangular_flag_on_post: :grin:
+## This is our test coverage!!! 99% :100: :triangular_flag_on_post:
 ![Test Coverage](https://github.com/Crueldad/HealthcareNow/blob/master/Test%20Coverage.png)
 
 
 
 -------
-## The three most important things we learned about software development in our project: :triangular_flag_on_post: :grin:
-1. We learned that it is crucial to have at least two people understand how to operate each tool that is used in the project in case of complications.
+## The three most important things we learned about software development in our project: :triangular_flag_on_post:
+1. We learned that it is crucial to have at least two people understand different scripting languages and other software used in the project in case of complications.
 2. It is more advantageous to complete the project if the code is written in an efficient (functional) manner and is applicable to various scenarios.
 3. Roles should be established at the beginning of the project based on the expertise of each person. furthermore;  there should be a working document detailing user stories to help find our path at each iteration.
 
