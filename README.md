@@ -364,8 +364,11 @@ def test_choosepl():
     path = reverse('show_chooseplan')
     assert resolve(path).view_name == 'show_chooseplan'
 ```
+-----
+###This is our test coverage!!!
+![Test Coverage] (https://ibb.co/2st5xRG)
 
-
+-------
 ## The three most important things we learned about software development in our project:
 1. We learned that it is crucial to have at least two people understand how to operate each tool that is used in the project in case of complications.
 2. It is more advantageous to complete the project if the code is written in an efficient (functional) manner and is applicable to various scenarios.
