@@ -199,7 +199,32 @@ Quit the server with CTRL-BREAK.
 
 (venv) C:\Users\cruel\HealthcareNow\src>
 ```
-**7. Tests Performed on our Application**
+**7. How to Run the Test (Go to the Test Folder)**
+```ruby
+* Mac OS
+cd src - > cd Tests
+HealthcareNow\src>cd Tests
+* Windows OS
+ cd src - > cd Tests
+HealthcareNow\src>cd Tests
+```
+**8. Run Pytest**
+```ruby
+* Mac OS
+HealthcareNow\src\Tests> pytest -v
+* Windows OS
+
+HealthcareNow\src\Tests> pytest -v
+```
+**9. Run Our Extraordinary Test Coverage**
+```ruby
+* Mac OS
+HealthcareNow\src\Tests> pytest --cov=HealthcareNow
+* Windows OS
+
+HealthcareNow\src\Tests> pytest --cov=HealthcareNow
+```
+**10. Tests Performed on our Application**
 ```ruby
 def test_match_code1():
     a = match_code1('1OSIS')
