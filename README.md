@@ -1,4 +1,4 @@
-# HealthcareNow :green_heart: :blue_heart: :green_heart: :gift_heart: :red_heart:
+# HealthcareNow :green_heart: :blue_heart: :green_heart: :gift_heart:
 
 ## Application Concept: :triangular_flag_on_post:
 Once the Affordable Care Act was signed into law in 2010, having health insurance became mandatory. Deciding on a plan can be laborious especially with for those with low levels of health literacy. The target population for our project are young adults looking to find a health plan that fits their needs.
