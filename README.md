@@ -366,7 +366,7 @@ def test_choosepl():
 ```
 -----
 ###This is our test coverage!!!
-![Test Coverage](https://pasteboard.co/IKPJUmr.png)
+![Test Coverage](https://github.com/Crueldad/HealthcareNow/blob/master/Test%20Coverage.png)
 
 
 
