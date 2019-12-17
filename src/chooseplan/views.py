@@ -18,7 +18,6 @@ from itertools import chain
 engine = create_engine("postgres+psycopg2://postgres:12221992@localhost:5432")
 connection = engine.connect()
 metadata = MetaData()
-HCT = Table('Healthcare_Categories', metadata, autoload=True, autoload_with=engine)
 
 Health_Care_Plans  =    [
                         {'Sharp_Silver_70_HMO': {"Specialist": '3S', 'Preventive_Care': "1PC", "Diagnostic_Test": "3DT", "Generic_Drugs": "4GD",
