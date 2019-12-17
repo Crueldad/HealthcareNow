@@ -143,6 +143,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 
 -----
 ## How to run the application :triangular_flag_on_post:
+
 ------
 ### Environment to run the application :triangular_flag_on_post:
 - Python 3.7.4
@@ -152,6 +153,44 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 - PostGres 12
 - SQL Alchemy 1.3
 ------
+## Create database model in PostgreSQL:
+
+-- Table: public.chooseplan_questions
+
+-- DROP TABLE public.chooseplan_questions;
+
+CREATE TABLE public.chooseplan_questions
+(
+    id integer NOT NULL DEFAULT nextval('chooseplan_questions_id_seq'::regclass),
+    "Age" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Are_you_currently_taking_pescribed_medication" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Gender" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Are_you_a_candidate_for_cataract_surgery" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Are_you_a_candidate_for_hip_replacement" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Are_you_a_candidate_for_knee_replacement" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Are_you_diabetic" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Are_you_diagnosed_with_cancer" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Are_you_diagnosed_with_heart_disease" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Are_you_pregnant" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Do_you_get_routine_vaccines_or_flu_shots" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Do_you_need_help_with_substance_abuse" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Do_you_need_prenatal_maternity_services" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Do_you_need_treatement_for_HIV_or_Aids" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Do_you_receive_regular_physicals_and_health_screenings" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Are_you_diagnosed_with_a_mental_health_condition" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Do_you_come_in_for_annual_mammogram_or_prostate_exams" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Do_you_have_a_labor_intensive_job" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Do_you_often_come_in_for_routine_checkups" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Do_you_often_deal_with_skin_conditions" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Do_you_often_feel_chronic_pain" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    "Do_you_often_participate_in_sports" character varying(500) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT chooseplan_questions_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.chooseplan_questions
+    OWNER to postgres;
 ## Run Application command :triangular_flag_on_post:
 ------
 **1. from application root activate the virtual environment** :triangular_flag_on_post:
