@@ -155,12 +155,12 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 ------
 ## Create database model in PostgreSQL:
 
--- Table: public.chooseplan_questions
+    -- Table: public.chooseplan_questions
 
--- DROP TABLE public.chooseplan_questions;
+    -- DROP TABLE public.chooseplan_questions;
 
-CREATE TABLE public.chooseplan_questions
-(
+    CREATE TABLE public.chooseplan_questions
+    (
     id integer NOT NULL DEFAULT nextval('chooseplan_questions_id_seq'::regclass),
     
     "Age" character varying(500) COLLATE pg_catalog."default" NOT NULL,
@@ -207,13 +207,15 @@ CREATE TABLE public.chooseplan_questions
     
     "Do_you_often_participate_in_sports" character varying(500) COLLATE pg_catalog."default" NOT NULL,
     
-    CONSTRAINT chooseplan_questions_pkey PRIMARY KEY (id)
-)
+    CONSTRAINT chooseplan_questions_pkey PRIMARY KEY (id) 
+    )
 
-TABLESPACE pg_default;
+    TABLESPACE pg_default;
 
-ALTER TABLE public.chooseplan_questions
-    OWNER to postgres;
+    ALTER TABLE public.chooseplan_questions
+        OWNER to postgres;
+    
+    
 ## Run Application command :triangular_flag_on_post:
 ------
 **1. from application root activate the virtual environment** :triangular_flag_on_post:
