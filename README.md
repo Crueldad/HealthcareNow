@@ -153,7 +153,9 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
 - PostGres 12
 - SQL Alchemy 1.3
 ------
-## Pip instal requirements.txt
+## Download PostgreSQL 12
+------
+## Pip install requirements.txt
     aioredis==1.3.0
     asgiref==3.2.2
     asn1crypto==1.0.0
@@ -252,6 +254,7 @@ Once the Affordable Care Act was signed into law in 2010, having health insuranc
     
     CONSTRAINT chooseplan_questions_pkey PRIMARY KEY (id) 
     )
+    
         OWNER to postgres;
     
     
