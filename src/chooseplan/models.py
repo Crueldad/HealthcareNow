@@ -1,4 +1,3 @@
-from multiselectfield import MultiSelectField
 from django.db import models
 
 # Create your models here.
