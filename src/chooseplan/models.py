@@ -141,3 +141,66 @@ class questions(models.Model):
     Are_you_a_candidate_for_cataract_surgery = models.CharField(max_length=500, blank=True, choices=Are_you_a_candidate_for_cataract_surgery)
     Are_you_a_candidate_for_knee_replacement = models.CharField(max_length=500, blank=True, choices=Are_you_a_candidate_for_knee_replacement)
     Are_you_a_candidate_for_hip_replacement = models.CharField(max_length=500, blank=True, choices=Are_you_a_candidate_for_hip_replacement)
+
+
+class demographics(models.Model):
+    Gender = (
+    ("1", "Male"),
+    ("2", "Female"),
+    ("3", "Non-Binary")
+
+    )
+
+    Age = (
+    ("4", "18-24"),
+    ("5", "25-34"),
+    ("6", "35-44"),
+    ("7", "45-54"),
+    ("7", "55-65+")
+    )
+
+    Height = (
+    ("8", "<4'7/140 cm"),
+    ("9", "4'8 - 4'11/ 141-150cm"),
+    ("10", "4'11 - 5'3/ 151-160cm"),
+    ("11", "5'3 - 5'7/ 161-170cm"),
+    ("12", "5'7 - 5'11/ 171-180cm"),
+    ("13", "5'11 - 6'3/ 181-190cm"),
+    ("14", "<6'3 /190cm ")
+    )
+
+    Weight = (
+    ("15", "100-120 pounds"),
+    ("16", "120-140 pounds"),
+    ("17", "140-160 pounds"),
+    ("18", "160-180 pounds"),
+    ("19", "180-200 pounds"),
+    ("20", "200-220 pounds"),
+    ("21", "220-240 pounds"),
+    ("22", "240-260+ pounds")
+    )
+
+    Activity_Level = (
+    ("23", "I excercise 1-2 days a week"),
+    ("24", "I excercise 2-4 days a week"),
+    ("25", "I excercise 4-6 days a week")
+    )
+
+    Level_of_excerise = (
+    ("26", "Light- walking, jogging, etc..."),
+    ("27", "Moderate- dancing, biking, use weights, etc..."),
+    ("28", "Hard - swimming, running, etc...")
+    )
+
+    Do_you_smoke = (
+    ("29", "Yes"),
+    ("30", "No")
+    )
+
+    Do_you_take_non_presribed_drugs = (
+    ("29", "Yes"),
+    ("30", "No")
+    )
+    
+
+    
