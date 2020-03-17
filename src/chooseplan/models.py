@@ -1,4 +1,5 @@
 from django.db import models
+from multiselectfield import MultiSelectField
 
 # Create your models here.
 
@@ -71,19 +72,24 @@ class demographics(models.Model):
     ("34", "No")
     )
 
-    
+    Gender = models.CharField(max_length=500, default='Unspecified', choices=Gender)
+    Age = models.CharField(max_length=500, default='Unspecified', choices=Age)
+    Height = models.CharField(max_length=500, default='Unspecified', choices=Height)
+    Weight = models.CharField(max_length=500, default='Unspecified', choices=Weight)
+    Activity_Level = models.CharField(max_length=500, default='Unspecified', choices=Activity_Level)
+    Level_of_excerise = models.CharField(max_length=500, default='Unspecified', choices=Level_of_excerise)
+    Do_you_smoke = models.CharField(max_length=500, default='Unspecified', choices=Do_you_smoke)
+    Do_you_take_non_presribed_drugs = models.CharField(max_length=500, default='Unspecified', choices=Do_you_take_non_presribed_drugs)
+    Do_you_often_participate_in_sports = models.CharField(max_length=500, default='Unspecified', choices=Do_you_often_participate_in_sports)
+    Do_you_have_a_labor_intensive_job = models.CharField(max_length=500, default='Unspecified', choices= Do_you_have_a_labor_intensive_job)
 
 
 
-    Gender = models.CharField(max_length=500, blank=True, choices=Gender)
-    Age = models.CharField(max_length=500, blank=True, choices=Age)
-    Height = models.CharField(max_length=500, blank=True, choices=Height)
-    Weight = models.CharField(max_length=500, blank=True, choices=Weight)
-    Activity_Level = models.CharField(max_length=500, blank=True, choices=Activity_Level)
-    Level_of_excerise = models.CharField(max_length=500, blank=True, choices=Level_of_excerise)
-    Do_you_smoke = models.CharField(max_length=500, blank=True, choices=Do_you_smoke)
-    Do_you_take_non_presribed_drugs = models.CharField(max_length=500, blank=True, choices=Do_you_take_non_presribed_drugs)
-    Do_you_often_participate_in_sports = models.CharField(max_length=500, blank=True, choices=Do_you_often_participate_in_sports)
-    Do_you_have_a_labor_intensive_job = models.CharField(max_length=500, blank=True, choices= Do_you_have_a_labor_intensive_job)
+class Symptoms(models.Model):
+    SYMPTOMS_CHOICES = (
+        ('Depression', 'Depression'),
+        ('Heart Issues', 'Heart Issues'),
+        )
+
+    Please_choose_all_that_apply = MultiSelectField(max_length= 100, default='Unspecified', choices=SYMPTOMS_CHOICES)
    
-    

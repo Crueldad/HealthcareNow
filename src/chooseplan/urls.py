@@ -5,6 +5,7 @@ from . import views
 
 urlpatterns = [
     path('', views.chooseplan, name='chooseplan'),
+    path('', views.choosesymptoms, name='choosesymptoms'),
     url(r'^icrueldad/', views.show_chooseplan, name='show_chooseplan')
 
 ]

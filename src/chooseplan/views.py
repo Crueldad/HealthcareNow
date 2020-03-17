@@ -2,8 +2,8 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 import json
 
-from .forms import chooseplanform
-from .models import questions
+from .forms import chooseplanform, symptomsplanform
+from .models import demographics, Symptoms
 
 # python local setting
 from sqlalchemy import create_engine
@@ -44,6 +44,17 @@ def chooseplan(request):
     else:
         form = chooseplanform()
     return render(request, 'chooseplan/chooseplan.html', {'form': form})
+
+def choosesymptoms(request):
+    if request.method == 'POST':
+        form = symptomsplanform(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect("show_chooseplan")
+    else:
+        form = symptomsplanform()
+    return render(request, 'choosesymptoms/chooseplan.html', {'form': form})
+
 
 
 def show_chooseplan(request):

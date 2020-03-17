@@ -46,12 +46,21 @@
                 {{form}}
           <button type="submit">Submit</button>
 
-      {% endblock %}
-
-
-
-
+      
       </div>
+
+      <div class="container">
+        
+              <div class="container" >
+                <form method="post">
+                  {% csrf_token %}
+                  {{sform}}
+            <button type="submit">Submit</button>
+  
+        {% endblock %}
+  
+
+        </div>
       <br>
         <br>
 
