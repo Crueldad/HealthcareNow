@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 import json
 
-from .forms import chooseplanform, symptomsplanform
+from .forms import chooseplanform
 from .models import demographics, Symptoms
 
 # python local setting
@@ -12,7 +12,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 import psycopg2
 import re
-import pprint 
+import pprint
 from itertools import chain
 
 engine = create_engine("postgres+psycopg2://postgres:12221992@localhost:5432")
@@ -43,17 +43,17 @@ def chooseplan(request):
             return redirect("show_chooseplan")
     else:
         form = chooseplanform()
-    return render(request, 'chooseplan/chooseplan.html', {'form': form})
+    return render(request, 'chooseplan/chooseplan.html', {'form': form })
 
-def choosesymptoms(request):
-    if request.method == 'POST':
-        form = symptomsplanform(request.POST)
-        if form.is_valid():
-            form.save()
-            return redirect("show_chooseplan")
-    else:
-        form = symptomsplanform()
-    return render(request, 'choosesymptoms/chooseplan.html', {'form': form})
+#def choosesymptoms(request):
+#    if request.method == 'POST':
+#        symptomsplanform = symptomsplanform(request.POST)
+#        if symptomsplanform.is_valid():
+#            symptomsplanform.save()
+#            return redirect("show_chooseplan")
+#    else:
+#        form = symptomsplanform()
+#    return render(request, 'choosesymptoms/chooseplan.html', {'form': form})
 
 
 
@@ -67,7 +67,7 @@ def show_chooseplan(request):
             plan_lists += "<h2>No or not enough answers checked</h2><br>"
         # details = {'Here are the best plans for you condition': (test_result)}
         if 'Sharp_Silver_70_HMO' in test_result:
-            plan_lists += '<center><h2>Sharp Silver 70HMO - For Sharp Silver Plan click:</h2></center><br>' 
+            plan_lists += '<center><h2>Sharp Silver 70HMO - For Sharp Silver Plan click:</h2></center><br>'
             plan_lists += '<center><a href="https://www.sharphealthplan.com/docs/default-source/group-plans/2019/sg-sbc-on-exchange/20360_sbc_ccsb-sharp-premier-silver-70-hmo-2000-45-child-dental.pdf"><img src="https://www.healthforcalifornia.com/bundles/website/img/carrier-logos/sharp.png" style="width:200x;height:200px;border:0;"></a></center><br>'
         if 'Kaiser_Covered_California_Silver_87_HMO' in test_result:
             plan_lists += '<center><h2>Kaiser Covered California Silver 87 HMO - For Kaiser Covered California Silver Plan click:</h2></center><br>'
@@ -83,7 +83,7 @@ def show_chooseplan(request):
     except:
         test_result = "No or not enough answers checked"
     return HttpResponse(plan_lists)
-    
+
 # =================================
 
 def get_data1(self):
@@ -93,7 +93,7 @@ def get_data1(self):
     return results
 
 def ret_code1(provider_list):
-    healthlist = [ ] 
+    healthlist = [ ]
     for i in provider_list:
         ilist = list(i)
         for b in range (len(ilist)):
@@ -136,4 +136,3 @@ def match_code1(hcp):
                                 final_outcome_improved.append(f)
                                 finalized = list(chain(*final_outcome_improved))
     return (finalized)
-
