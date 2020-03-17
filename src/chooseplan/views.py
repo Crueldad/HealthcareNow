@@ -53,7 +53,7 @@ def choosesymptoms(request):
             return redirect("show_chooseplan")
     else:
         form = symptomsplanform()
-    return render(request, 'choosesymptoms/chooseplan.html', {'form': form})
+    return render(request, 'choosesymptoms/chooseplan.html', {'form': sform})
 
 
 

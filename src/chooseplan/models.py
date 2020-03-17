@@ -87,9 +87,15 @@ class demographics(models.Model):
 
 class Symptoms(models.Model):
     SYMPTOMS_CHOICES = (
-        ('Depression', 'Depression'),
+        ('Therapy/or other mental health services', 'Therapy/or other mental health services'),
+        ('Sezizures', 'Sezizures'),
         ('Heart Issues', 'Heart Issues'),
+        ('Have dependencies', 'Have dependencies'),
+        ('Take prescription drugs', 'Take prescription drugs'),
+        ('Diabetes', 'Diabetes'),
+        ('High Blood Pressure', 'High Blood Pressure'),
+        
         )
 
-    Please_choose_all_that_apply = MultiSelectField(max_length= 100, default='Unspecified', choices=SYMPTOMS_CHOICES)
+    Please_choose_all_conditions_that_apply = MultiSelectField(max_length= 100, default='Unspecified', choices=SYMPTOMS_CHOICES)
    
