@@ -91,14 +91,16 @@ class demographics(models.Model):
 
 class Symptoms(models.Model):
     SYMPTOMS_CHOICES = (
-        ('Therapy/or other mental health services', 'Therapy/or other mental health services'),
-        ('Sezizures', 'Sezizures'),
-        ('Heart Issues', 'Heart Issues'),
+        ('Depression/or other mental health conditions', 'Depression/or other mental health conditions'),
+        ('Respiratory Illnesses', 'Respiratory Illnesses'),
+        ('Heart condition(s)', 'Heart Condition(s)'),
         ('Have dependencies', 'Have dependencies'),
         ('Take prescription drugs', 'Take prescription drugs'),
         ('Diabetes', 'Diabetes'),
-        ('High Blood Pressure', 'High Blood Pressure'),
-        
+        ('Physical condition(s)', 'Physical condition(s)'),
+        ('Chronic Condition(s)', 'Chronic Condition(s)'),
+        ('Disabled', 'Disabled'),
+        ('Serious illnesses and disorders(HIV/Aids, Cancer ,Influenza, Scoliosis, Epilepsy, etc..)', 'Serious illnesses and disorders(HIV/Aids, Cancer ,Influenza, Scoliosis, Epilepsy, etc..)')
         )
 
     Please_choose_all_that_apply = MultiSelectField(max_length= 100, default='Unspecified', choices=SYMPTOMS_CHOICES)
