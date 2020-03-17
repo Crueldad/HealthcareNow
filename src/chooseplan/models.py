@@ -91,7 +91,7 @@ class demographics(models.Model):
 
 class Symptoms(models.Model):
     SYMPTOMS_CHOICES = (
-        ('Depression/or other mental health conditions', 'Depression/or other mental health conditions'),
+        ('Mental Health Conditions', 'Mental Health Conditions'),
         ('Respiratory Illnesses', 'Respiratory Illnesses'),
         ('Heart condition(s)', 'Heart Condition(s)'),
         ('Have dependencies', 'Have dependencies'),
