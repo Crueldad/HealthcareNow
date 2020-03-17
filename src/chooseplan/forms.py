@@ -1,5 +1,5 @@
 from django import forms
-from .models import demographics, Symptoms
+from .models import demographics
 from django.forms import ModelForm
 
 class chooseplanform(forms.ModelForm):
