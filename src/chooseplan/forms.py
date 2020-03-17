@@ -9,7 +9,7 @@ class chooseplanform(forms.ModelForm):
         widgets = {'Gender': forms.RadioSelect, 'Age': forms.RadioSelect, 'Height': forms.RadioSelect,  'Weight': forms.RadioSelect, 'Activity_Level': forms.RadioSelect, \
         'Level_of_excerise': forms.RadioSelect, 'Do_you_smoke': forms.RadioSelect, 'Do_you_take_non_presribed_drugs': forms.RadioSelect, 'Do_you_often_participate_in_sports': \
          forms.RadioSelect, 'Do_you_have_a_labor_intensive_job': forms.RadioSelect, \
-         'Depression': forms.RadioSelect, 'Heart Issues': forms.RadioSelect} #START OF SYMPTOMS
+         } #START OF SYMPTOMS
 
 #class symptomsplanform(forms.ModelForm):
 #    class Meta:
