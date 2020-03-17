@@ -72,8 +72,16 @@ class demographics(models.Model):
     ("34", "No")
     )
     SYMPTOMS_CHOICES = (
-    ('Depression', 'Depression'),
-    ('Heart Issues', 'Heart Issues'),
+    ('Depression/or other mental health conditions', 'Depression/or other mental health conditions'),
+    ('Respiratory Illnesses', 'Respiratory Illnesses'),
+    ('Heart condition(s)', 'Heart Condition(s)'),
+    ('Have dependencies', 'Have dependencies'),
+    ('Take prescription drugs', 'Take prescription drugs'),
+    ('Diabetes', 'Diabetes'),
+    ('Physical condition(s)', 'Physical condition(s)'),
+    ('Chronic Condition(s)', 'Chronic Condition(s)'),
+    ('Disabled', 'Disabled'),
+    ('Serious illnesses and disorders(HIV/Aids, Cancer ,Influenza, Scoliosis, Epilepsy, etc..)', 'Serious illnesses and disorders(HIV/Aids, Cancer ,Influenza, Scoliosis, Epilepsy, etc..)')
     )
 
     Gender = models.CharField(max_length=500, default='Unspecified', choices=Gender)
@@ -86,21 +94,5 @@ class demographics(models.Model):
     Do_you_take_non_presribed_drugs = models.CharField(max_length=500, default='Unspecified', choices=Do_you_take_non_presribed_drugs)
     Do_you_often_participate_in_sports = models.CharField(max_length=500, default='Unspecified', choices=Do_you_often_participate_in_sports)
     Do_you_have_a_labor_intensive_job = models.CharField(max_length=500, default='Unspecified', choices= Do_you_have_a_labor_intensive_job)
-    Please_choose_all_that_apply = MultiSelectField(max_length= 100, default='Unspecified', choices=SYMPTOMS_CHOICES)
-
-
-class Symptoms(models.Model):
-    SYMPTOMS_CHOICES = (
-        ('Depression/or other mental health conditions', 'Depression/or other mental health conditions'),
-        ('Respiratory Illnesses', 'Respiratory Illnesses'),
-        ('Heart condition(s)', 'Heart Condition(s)'),
-        ('Have dependencies', 'Have dependencies'),
-        ('Take prescription drugs', 'Take prescription drugs'),
-        ('Diabetes', 'Diabetes'),
-        ('Physical condition(s)', 'Physical condition(s)'),
-        ('Chronic Condition(s)', 'Chronic Condition(s)'),
-        ('Disabled', 'Disabled'),
-        ('Serious illnesses and disorders(HIV/Aids, Cancer ,Influenza, Scoliosis, Epilepsy, etc..)', 'Serious illnesses and disorders(HIV/Aids, Cancer ,Influenza, Scoliosis, Epilepsy, etc..)')
-        )
-
+    #SYMPTOMS
     Please_choose_all_that_apply = MultiSelectField(max_length= 100, default='Unspecified', choices=SYMPTOMS_CHOICES)
