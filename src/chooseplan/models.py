@@ -72,16 +72,16 @@ class demographics(models.Model):
     ("34", "No")
     )
     SYMPTOMS_CHOICES = (
-    ('Depression/or other mental health conditions', 'Depression/or other mental health conditions'),
-    ('Respiratory Illnesses', 'Respiratory Illnesses'),
-    ('Heart condition(s)', 'Heart Condition(s)'),
-    ('Have dependencies', 'Have dependencies'),
-    ('Take prescription drugs', 'Take prescription drugs'),
-    ('Diabetes', 'Diabetes'),
-    ('Physical condition(s)', 'Physical condition(s)'),
-    ('Chronic Condition(s)', 'Chronic Condition(s)'),
-    ('Disabled', 'Disabled'),
-    ('Serious illnesses and disorders(HIV/Aids, Cancer ,Influenza, Scoliosis, Epilepsy, etc..)', 'Serious illnesses and disorders(HIV/Aids, Cancer ,Influenza, Scoliosis, Epilepsy, etc..)')
+    ('35', 'Depression/or other mental health conditions'),
+    ('36', 'Respiratory Illnesses'),
+    ('37', 'Heart Condition(s)'),
+    ('38', 'Have dependencies'),
+    ('39', 'Take prescription drugs'),
+    ('40', 'Diabetes'),
+    ('41', 'Physical condition(s)'),
+    ('42', 'Chronic Condition(s)'),
+    ('43', 'Disabled'),
+    ('44', 'Serious illnesses and disorders(HIV/Aids, Cancer ,Influenza, Scoliosis, Epilepsy, etc..)')
     )
 
     Gender = models.CharField(max_length=500, default='Unspecified', choices=Gender)
