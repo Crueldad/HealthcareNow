@@ -24,5 +24,5 @@ urlpatterns = [
     path('chooseplan/', include('chooseplan.urls')),
     path('chat/', include('chat.urls')),
     path('admin/', admin.site.urls),
-
+    path('healthplans/', include('healthplanportal.urls')),
 ]

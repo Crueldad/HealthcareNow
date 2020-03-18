@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'chat',
     'chooseplan',
     'pages',
+    'healthplanportal.apps.HealthplanportalConfig',
     'login_register',
     'django.contrib.admin',
     'django.contrib.auth',
