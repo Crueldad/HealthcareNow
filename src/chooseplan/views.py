@@ -20,11 +20,12 @@ connection = engine.connect()
 metadata = MetaData()
 
 def chooseplan(request):
+
     if request.method == 'POST':
         form = chooseplanform(request.POST)
         if form.is_valid():
             form.save()
-            return redirect("chooseplan")
+            return redirect("/results")
     else:
         form = chooseplanform()
     return render(request, 'chooseplan/chooseplan.html', {'form': form })

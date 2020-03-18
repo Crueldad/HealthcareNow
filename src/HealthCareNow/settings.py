@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'chooseplan',
     'pages',
     'healthplanportal.apps.HealthplanportalConfig',
+    'algorithm.apps.AlgorithmConfig',
     'login_register',
     'django.contrib.admin',
     'django.contrib.auth',
