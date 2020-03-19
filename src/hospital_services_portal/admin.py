@@ -13,7 +13,7 @@ class HospitalAdmin(admin.ModelAdmin):
         ('Date information', {'fields': ['pub_date'], 'classes': ['collapse']}),
     ]
     inlines = [ServiceInLine]
-    list_display = ('question_text', 'pub_date')
+    list_display = ('hospital_name', 'pub_date')
 
 admin.site.register(Hospital, HospitalAdmin)
 admin.site.register(Service)
