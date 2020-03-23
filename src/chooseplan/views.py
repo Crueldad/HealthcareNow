@@ -29,3 +29,27 @@ def chooseplan(request):
     else:
         form = chooseplanform()
     return render(request, 'chooseplan/chooseplan.html', {'form': form })
+
+def get_demographic_data(self):
+    stmt = 'Select * From public."chooseplan_demographics" Order By id DESC LIMIT 1'
+    result_proxy = connection.execute(stmt)
+    results = result_proxy.fetchall()
+    return results
+
+def get_healthplan_data(self):
+    stmt = 'Select * From public."healthplanportal_healthplan" Order By id DESC LIMIT 1'
+    result_proxy = connection.execute(stmt)
+    results = result_proxy.fetchall()
+    return results
+
+def get_hospital_data(self):
+    stmt = 'Select * From public."hospital_services_portal_hospital" Order By id DESC LIMIT 1'
+    result_proxy = connection.execute(stmt)
+    results = result_proxy.fetchall()
+    return results
+
+def get_hospital_services_data(self):
+    stmt = 'Select * From public."hospital_services_portal_service" Order By id DESC LIMIT 1'
+    result_proxy = connection.execute(stmt)
+    results = result_proxy.fetchall()
+    return results

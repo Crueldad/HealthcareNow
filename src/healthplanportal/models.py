@@ -1,4 +1,5 @@
 from django.db import models
+from hospital_services_portal.models import Hospital
 
 
 class HealthPlan(models.Model):
@@ -54,5 +55,6 @@ class HealthPlan(models.Model):
     Skilled_nursing_care_Percentage = models.IntegerField(blank=True, default=-1)
     Durable_medical_eqiupment = models.IntegerField(blank=True, default=-1)
     Durable_medical_eqiupment_Percentage = models.IntegerField(blank=True, default=-1)
+    # hospital = models.ForeignKey(Hospital, on_delete=models.CASCADE)
     def __str__(self):
         return self.name
